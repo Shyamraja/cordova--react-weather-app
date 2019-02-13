@@ -1,12 +1,12 @@
 
 
 body {
-    background-image: url("https://www.desktop-background.com/p/2010/05/07/13639_sky-clouds-backgrounds-four_4153x2769_h.jpg");
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+    
+   font-family: "Merriweather", serif;
+
 }
 
- .wrapper {
+.wrapper {
     background: linear-gradient(to right, #e67e22, #e74c3c);
     height: 100vh;
     display: flex;
@@ -49,7 +49,7 @@ body {
   
   .form-container {
     background-color: #92a8d1;
-    height: 80vh;
+    height: 60vh;
     padding-top: 20px;
     padding-left: 20px;
   }
@@ -65,7 +65,7 @@ body {
     letter-spacing: 2px;
     margin-bottom: 25px;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   input[type="text"] { 
@@ -100,7 +100,7 @@ body {
   
   .weather__key {
     color: rgb(44, 47, 48);
-    border-bottom: solid 0px ;
+    border-bottom: solid 0 px ;
     padding: 30px 0 30px 0;
     font-weight: 300;
   }
